@@ -1,4 +1,4 @@
-<h1>Customer Segmentation using K-Means Clustering<h1/>
+#Customer Segmentation using K-Means Clustering
 
 
 This project demonstrates how to apply K-Means Clustering on synthetic customer data to segment them based on Annual Income and Spending Score.
@@ -126,20 +126,6 @@ Low income, low spending
 📌 Output Sample
 First 5 rows of data:
 
-   CustomerID  Age  Annual Income (k$)  Spending Score (1-100)
-0           1   56                 106                      86
-1           2   46                 125                      91
-2           3   32                  22                      35
-3           4   60                  49                      65
-4           5   25                  95                      99
-Cluster Averages Example:
-
-         CustomerID        Age  Annual Income (k$)  Spending Score (1-100)
-Cluster                                                                  
-0         24.50       37.20            55.90               75.80
-1         24.92       44.85           117.61               78.46
-2         27.05       38.21            43.63               29.78
-3         24.00       40.75           116.00               16.13
-
+   
 ✅ Conclusion
 We successfully segmented customers into 4 groups using K-Means Clustering. This approach is valuable for targeted marketing, personalized recommendations, and customer retention strategies.
