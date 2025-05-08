@@ -123,8 +123,8 @@ High income, low spending
 
 Low income, low spending
 
-![hello](images/pip1)
-![Custome](images/pip2)
+![Pip Install Screenshot 1](images/pip.png)
+![Pip Install Screenshot 2](images/pip2.png)
 ![Customer Segmentation](images/customer_seg.png)
 
 
