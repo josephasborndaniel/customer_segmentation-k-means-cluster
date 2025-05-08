@@ -1,4 +1,4 @@
-#Customer Segmentation using K-Means Clustering
+#Customer Segmentation using K-Means Clustering(H1)
 
 
 This project demonstrates how to apply K-Means Clustering on synthetic customer data to segment them based on Annual Income and Spending Score.
