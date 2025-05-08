@@ -1,4 +1,4 @@
-#Customer Segmentation using K-Means Clustering(H1)
+# Customer Segmentation using K-Means Clustering(H1)
 
 
 This project demonstrates how to apply K-Means Clustering on synthetic customer data to segment them based on Annual Income and Spending Score.
@@ -16,11 +16,11 @@ Seaborn
 
 Scikit-learn
 
-📊 Objective
+## 📊 Objective
 To segment customers into different groups based on spending habits and income using machine learning (K-Means Clustering).
 
-📁 Project Steps
-1. Import Libraries
+### 📁 Project Steps
+#### 1. Import Libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,7 +29,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 We import libraries for data handling, visualization, and machine learning.
 
-2. Generate Synthetic Customer Data
+#### 2. Generate Synthetic Customer Data
 np.random.seed(42)
 customer_id = np.arange(1, 51)
 age = np.random.randint(18, 65, size=50)
@@ -123,9 +123,9 @@ High income, low spending
 
 Low income, low spending
 
-📌 Output Sample
-First 5 rows of data:
+![Customer Segmentation](customer_seg.png)
+
 
    
-✅ Conclusion
+#✅ Conclusion
 We successfully segmented customers into 4 groups using K-Means Clustering. This approach is valuable for targeted marketing, personalized recommendations, and customer retention strategies.
